@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <!-- title -->
+    <title>Homepage</title>
+    
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.8.55/css/materialdesignicons.min.css">
+    
+    <!-- optimize for mobiles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body onload="init();">
+    
+    <!-- main -->
+    <div id="center">
+      <center>
+        <div id="overlay">
+          <span id="clock">--:--</span>
+          <br><br>
+          <span id="date">---, -- ---</span>
+          <br><br><br>
+          <input type="text" id="search" placeholder="Search DuckDuckGo" autofocus>
+          <br>
+          <div id="searchErr">
+            <span class="mdi mdi-alert-circle"></span>
+          </div>
+          <br><br>
+          <div id="buttons">
+            <a class="btn_transparent" id="btn_duckduckgo" onclick="Search('ddg');" title="Search DuckDuckGo"><span class="mdi mdi-magnify"></span></a>
+            <a class="btn_transparent" id="btn_github" onclick="Search('git');" title="Search GitHub"><span class="mdi mdi-github"></span></a>
+            <a class="btn_transparent" id="btn_spotify" onclick="Search('spotify');" title="Search Spotify"><span class="mdi mdi-spotify"></span></a>
+            <a class="btn_transparent" id="btn_twitter" onclick="Search('twitter');" title="Search Twitter"><span class="mdi mdi-twitter"></span></a>
+            <a class="btn_transparent" id="btn_yt" onclick="Search('yt');" title="Search YouTube"><span class="mdi mdi-youtube"></span></a>
+            <a class="btn_transparent" id="btn_wiki" onclick="Search('wiki');" title="Search Wikipedia"><span class="mdi mdi-wikipedia"></span></a>
+          </div>
+        </div>
+      </center>
+    </div>
+    
+    <!-- watermarks -->
+    <div id="watermark">
+      <div style="padding-left: 10px; padding-bottom: 10px;" id="mark">
+        Made by <a href="https://cyanic.tk">Cyanic.tk</a>
+        • Photos by <a href="https://unsplash.com">Unsplash</a>
+      </div>
+    </div>
+    
+    <script src="script.js" type="text/javascript" defer></script>
+  </body>
+</html>

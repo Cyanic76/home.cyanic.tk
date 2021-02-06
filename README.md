@@ -28,3 +28,5 @@ This website is available at <https://home.cyanic.tk/> and uses the following:
 - Roboto font from [Google](https://fonts.google.com/specimen/Roboto)
 
 The Homepage does not save anything. Nothing is logged.
+
+Mirror: <https://cyanic76.github.io/home.cyanic.tk>
